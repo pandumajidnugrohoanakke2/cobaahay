@@ -1,0 +1,62 @@
+/* Gaya untuk latar belakang halaman */
+body {
+    background-image: url('background-image.jpg'); /* Ganti 'background-image.jpg' dengan URL atau path ke gambar latar belakang Anda */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #333; /* Warna teks */
+    font-family: Arial, sans-serif; /* Jenis font */
+  }
+  
+  /* Gaya untuk header */
+  header {
+    background-color: rgba(52, 152, 219, 0.8); /* Warna latar belakang dengan efek transparan */
+    color: #fff; /* Warna teks */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Gaya untuk tautan "Halaman Sebelumnya" dan "Halaman Awal" */
+  a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(52, 152, 219, 0.8); /* Warna latar belakang tautan dengan efek transparan */
+    color: #fff; /* Warna teks */
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  a:hover {
+    background-color: rgba(41, 128, 185, 0.8); /* Warna latar belakang tautan saat dihover dengan efek transparan */
+    color: #fff; /* Warna teks */
+  }
+  
+  /* Gaya untuk teks dalam elemen ul */
+  ul {
+    background-color: rgba(255, 255, 255, 0.8); /* Warna latar belakang ul dengan efek transparan */
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Gaya untuk teks dalam elemen li */
+  li {
+    margin: 5px 0;
+  }
+  
+  /* Gaya untuk footer */
+  footer {
+    background-color: rgba(41, 128, 185, 0.8); /* Warna latar belakang dengan efek transparan */
+    color: #fff; /* Warna teks */
+    text-align: center;
+    padding: 10px 0;
+  }
+  /* Gaya untuk latar belakang halaman */
+body {
+    background-color: #f2f2f2; /* Warna latar belakang abu-abu muda */
+    color: #333; /* Warna teks */
+    font-family: Arial, sans-serif; /* Jenis font */
+  }
+  
+  

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halaman 2 - Profil Saya</title>
+  <link rel="stylesheet" href="pandu.css"> <!-- Jika Anda memiliki file CSS untuk tampilan halaman 2 -->
+  <a href="index.html">sebelumnya </a>
+  <a href="page3.html">Lanjut ke Halaman 3</a>
+  <link rel="stylesheet" href="forpage3.css">
+  <link rel="stylesheet" href="forbagusin.css">
+</head>
+<body>
+  <header>
+    <h1>Selamat Datang di Halaman 2</h1>
+  </header>
+  <main>
+    <section id="profile">
+      <h2>Profil Saya</h2>
+      <p>Saya adalah seorang penulis lepas dengan minat dalam menulis fiksi dan nonfiksi. Saya telah bekerja dalam industri ini selama beberapa tahun dan telah menyumbangkan tulisan saya ke berbagai portal berita online. Saya tinggal di Surabaya dan sangat bersemangat untuk terus berkontribusi dalam dunia menulis.</p>
+      <img src="your-profile-image.jpg" alt="Foto Profil Anda" width="200">
+    </section>
+    <section id="contact">
+      <h2>Kontak</h2>
+      <ul>
+        <li>Email: <a href="mailto:pmajidn@gmail.com">pmnnugroho@gmail.com</a></li>
+        <li>Telepon: 08872583789</li>
+      </ul>
+    </section>
+   
+  </main>
+  <footer>
+    <p>&copy; 2023 pandumajidnugroho</p>
+  </footer>
+  <form id="contact-form">
+    <input type="text" id="name" placeholder="Nama">
+    <input type="email" id="email" placeholder="Email">
+    <textarea id="message" placeholder="Pesan"></textarea>
+    <textarea id="message" placeholder="rate this web"></textarea>
+    <button type="submit">Kirim Pesan</button>
+  </form>
+  
+  <script>
+  document.getElementById('contact-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+  
+    // Kirim pesan ke alamat email Anda atau proses sesuai kebutuhan Anda
+    console.log(`Pesan dari ${name} (${email}): ${message}`);
+  });
+  </script>
+</body>
+</html>
